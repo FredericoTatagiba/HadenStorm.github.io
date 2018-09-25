@@ -1,0 +1,98 @@
+*{margin:0; padding:0}
+body{
+	background-color: gray;
+}
+.Input{
+	height: 20px;
+	width: 395px;
+	margin-left: 3%;
+}
+.Button{
+	margin-left: 38.25%;
+	width: 100px;
+	height: 100px;
+}
+#Menu{
+	position: relative;
+	margin: auto;
+	background-color: black;
+	border: 3px solid  red;
+	width: 80%;
+	height: 15%;
+	background-size: 90%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.titleGG{
+	color: white;
+	font-family: 'Rock Salt', cursive;
+	text-align: center;
+	font-size: 300%;
+}
+#Back{
+	display: grid;
+	grid-template-columns: repeat(3, minmax(150px, 1fr));
+	grid-row-gap: 100px;
+	background-color: #750c0c;
+	width: 100%;
+}
+.Backimage{
+	margin-left: 15%;
+	background-color: #0a1659; 
+	width: 300px;
+	height: 520px;
+}
+#Game1{
+	background-repeat: no-repeat;
+	background-image: url(https://shortcut-test2.s3.amazonaws.com/uploads/project/attachment/6099/default_danganronpa-trigger-happy-havoc.jpg);
+	width: 300px;
+	height: 300px;
+}
+#Game2{
+	background-repeat: no-repeat;
+	background-image: url(https://pcgamingwiki.com/images/thumb/6/61/Danganronpa_Another_Episode_Ultra_Despair_Girls_cover.jpg/300px-Danganronpa_Another_Episode_Ultra_Despair_Girls_cover.jpg);
+	width: 300px;
+	height: 300px;
+}
+#Game3{
+	background-repeat: no-repeat;
+	background-image: url(https://images.lukiegames.com/t_300e2/assets/images/Vita/vita_danganronpa_2_le_p_alnpj1.jpg);
+	width: 300px;
+	height: 300px;
+}
+#Game4{
+	background-repeat: no-repeat;
+	background-image: url(https://pcgamingwiki.com/images/thumb/2/20/Danganronpa_V3_Killing_Harmony_cover.jpg/300px-Danganronpa_V3_Killing_Harmony_cover.jpg);
+	width: 300px;
+	height: 300px;
+}
+#Game5{
+	background-repeat: no-repeat;
+	background-image: url(https://img.cdn.nimg.jp/s/niconews/articles/images/3767804/5092b5452b32cc1a6e337ff9cb5e7fc154f01e4d72835353e01801c5f8a2b7ae422bacab1780108760b96d6be6125c1df7aa0f1b43458045c19d4e8c098cd34c/300x300s_FFFFFFFF?key=6442bcb4c9aa4ca474c0fa9ba2172e2459265acacbfa723020c633d843bc5070);
+	width: 300px;
+	height: 300px;
+}
+.Description{
+	color: white;
+	font-size: 16px;
+}
+.Gametype{
+	position: relative;
+	left: 20px;
+	color: #c9106f;
+}
+#BuyChart{
+	background-color: #d68d20;
+	width: 430px;
+	height: 520px;
+}
+.Data{
+	color: white;
+	font-family: 'Sigmar One', cursive;
+	font-size: 20px;
+	position: center;
+}
+.Price{
+	color: #06d100;
+	font-size: 30px;
+}
