@@ -1,0 +1,48 @@
+*{margin:0; padding:0}
+body{
+	background-color: #a80808;
+}
+#Menu{
+	display: grid;
+	grid-template-columns: repeat(2, minmax(150px, 1fr));
+	position: relative;
+	margin: auto;
+	background-color: black;
+	border: 3px solid  purple;
+	width: 80%;
+	height: 500px;
+	background-size: 90%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.Button{
+	margin-left: 4.28px;
+	width: 180px;
+	height: 100px;
+}
+#Character{
+	background-image: url(http://pm1.narvii.com/6187/71b0da38c8056cbd38faf3a00dad16d087ba46c1_00.jpg);
+	background-repeat: no-repeat;
+}
+.text{
+	color: white;
+	font-size: 48px;
+}
+#Activity{
+	display: grid;
+	grid-template-columns: repeat(4, minmax(150px, 1fr));
+	position: relative;
+	margin: auto;
+	background-color: black;
+	border: 3px solid  purple;
+	width: 95%;
+	height: 114.3px;
+	background-size: 90%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	align-content: center;
+}
+#Activity_1{
+	font-size: 30px;
+	color: white;
+}
