@@ -1,0 +1,36 @@
+*{margin:10px; padding:0}
+body{
+	background-image: url(https://t3.rbxcdn.com/a203bd6d74a366a68ffca0d21b3f710b);
+}
+#Main{
+	display: grid;
+	grid-template-columns: repeat(2, minmax(150px, 1fr));
+	grid-template-columns: 1fr 4fr;
+	background-color: black;
+	border: 3px solid purple;
+}
+#Character{
+	background-image: url(https://vignette.wikia.nocookie.net/danganronpa/images/9/9d/Danganronpa_2_Monokuma_Sitting_Sprite_09.png/revision/latest/scale-to-width-down/202?cb=20170521001250);
+	background-repeat: no-repeat;
+	margin: 0;
+	border: 3px solid purple;
+	height: 240px;
+	width: 202px;
+	position: center;
+}
+#Other{
+	display: grid;
+	grid-template-rows: repeat(3,minmax(5px, 1fr));
+	grid-template-rows: 0.5fr 0.5fr 1fr;
+	background-color: black;
+	border: 2px solid orange;
+	margin: auto;
+	color: white;
+}
+.Talk{
+	color: white;
+}
+.Info{
+	border: 1px solid orange;
+	margin: 0;
+}
