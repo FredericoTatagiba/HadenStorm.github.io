@@ -19,9 +19,6 @@ body{
 	border: 3px solid  red;
 	width: 80%;
 	height: 15%;
-	background-size: 90%;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
 }
 .titleGG{
 	color: white;
