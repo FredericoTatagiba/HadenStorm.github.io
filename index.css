@@ -9,20 +9,18 @@ body{
 	margin: auto;
 	background-color: black;
 	border: 3px solid  purple;
-	width: 80%;
+	width: 85%;
 	height: 500px;
-	background-size: 90%;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
 }
 .Button{
-	margin-left: 4.28px;
-	width: 180px;
+	margin-left: 6.335px;
+	width: 140px;
 	height: 100px;
 }
 #Character{
 	background-image: url(http://pm1.narvii.com/6187/71b0da38c8056cbd38faf3a00dad16d087ba46c1_00.jpg);
 	background-repeat: no-repeat;
+	font-size: 3px;
 }
 .text{
 	color: white;
@@ -30,16 +28,13 @@ body{
 }
 #Activity{
 	display: grid;
-	grid-template-columns: repeat(4, minmax(150px, 1fr));
+	grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
 	position: relative;
 	margin: auto;
 	background-color: black;
 	border: 3px solid  purple;
 	width: 95%;
 	height: 114.3px;
-	background-size: 90%;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
 	align-content: center;
 }
 #Activity_1{
