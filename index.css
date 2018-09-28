@@ -2,6 +2,12 @@
 body{
 	background-color: #a80808;
 }
+#Curriculum{
+	margin: 0;
+	width: 20px;
+	height: 20px;
+	background-image: url(https://78.media.tumblr.com/d1d1eab09134be01ea5fd1c47a00bf6c/tumblr_inline_mtm7vypGBu1s839qr.gif);
+}
 #Menu{
 	display: grid;
 	grid-template-columns: repeat(2, minmax(150px, 1fr));
