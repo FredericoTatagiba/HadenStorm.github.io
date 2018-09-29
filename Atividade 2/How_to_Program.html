@@ -24,11 +24,11 @@ int main()
 {
 	int n1=1, n2;
 
-	// Using %i in your printf, you can print n1. 
+// Using %i in your printf, you can print n1. 
 	printf("%i", n1);
-	//And using scanf, you can make the person, who is using your program, to choose a number, for example:
+//And using scanf, you can make the person, who is using your program, to choose a number, for example:
 	printf("Choose a whole number for n2: "); scanf("%i", &n2);
-	//And also print it too. 
+//And also print it too. 
 	printf("%i", n2);
 	return 0;
 }
@@ -41,14 +41,14 @@ int main()
 {
 	float n1=1, n2;
 
-	// Using %f in your printf, you can print n1. 
+// Using %f in your printf, you can print n1. 
 	printf("%f", n1);
-	//And again, using scanf, you can make the person, who is using your program, to choose a number.
+//And again, using scanf, you can make the person, who is using your program, to choose a number.
 	printf("Choose a real or a whole number for n2: "); scanf("%f", &n2);
-	//And print it too.
+//And print it too.
 	printf("%f", n2);
-	/*And you can also choose how many bnumbers you want after the dot, using %.nf 
-	where "n" is the number of number that you want to be shown.*/
+/*And you can also choose how many bnumbers you want after the dot, using %.nf 
+where "n" is the number of number that you want to be shown.*/
 	printf("%.2f", n2);
 	return 0;
 }
@@ -61,7 +61,7 @@ int main()
 {
 	char option;
 
-	//For now, you can just choose it.
+//For now, you can just choose it.
 	printf("Choose a letter (A to Z) or a number (0 to 9): ");
 	scanf(" %c", &option)
 					
@@ -83,16 +83,16 @@ int main()
 
 	printf("\n\n\tChoose a whole number for x: "); scanf("%i", &x);
 	printf("\n\n\tChoose a whole number for y: "); scanf("%i", &y);
-	//First, you use "if" to put the condition between the parentheses
+//First, you use "if" to put the condition between the parentheses
 	if(x < y)
 		printf("\n\n\tX is smaller than Y");
-	//And then you can use "else" to do an action if the coditions weren't met
+//And then you can use "else" to do an action if the coditions weren't met
 	else
 	{
-		//You can also put another codition, but it needs to be "inside" in an "else"
+//You can also put another codition, but it needs to be "inside" in an "else"
 		if (y < x)
 			printf("\n\n\tX is smaller than Y");
-		//And you put another else inside
+//And you put another else inside
 		else
 			printf("\n\n\tX = Y");
 	}
@@ -109,13 +109,13 @@ int main()
 	int x=1;
 	char option;
 
-	//If the variable doesn't have a value yet, you use "do while".
+//If the variable doesn't have a value yet, you use "do while".
 	do
 	{
 		printf("\n\n\tDo you want to continue (Y/N)? "); scanf(" %c", &option);
 	}while(option=='Y' || option=='y');
 
-	//if it already has a value, you can use only while if you want
+//if it already has a value, you can use only while if you want
 	while(x==1 || x!=0)
 	{
 		printf("\n\n\tShow this message again?\n\t1. Yes\n\t0. No\n\tOption: "); scanf("%i", &x);
