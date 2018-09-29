@@ -1,0 +1,53 @@
+body{
+	background-image: url(https://steamuserimages-a.akamaihd.net/ugc/963094382185527712/DF41B5E3F52DFA70A33413C96ED8C84B693C0717/);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+#BigTitle{
+	font-size: 100px;
+	font-family: serif;
+	text-align: center;
+	width: 75%;
+	position: relative;
+	margin: auto;
+	background-color: black;
+	border: 5px solid orange;
+	color: white;
+}
+#Main{
+	margin: auto;
+	display: grid;
+	grid-template-rows: repeat(3, minmax(10px, 1fr));
+	grid-template-rows: 0.2fr 3fr 3fr;
+	border: 1px solid purple;
+}
+.Bigwords{
+	font-size: 28px;
+	font-family: 'Josefin Sans', sans-serif;
+}
+.Title{
+	font-family: sans-serif;
+	font-size: 30px;
+	color: red;
+	list-style-type: circle;
+}
+.List{
+	list-style-type: hiragana-iroha;
+}
+.Content{
+	color: gold;
+	border: 0.5px solid purple;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 23px;
+
+}
+.Important{
+	color: red;
+}
+.Code{
+	margin-right: 15%;
+	background-color: white;
+	color: black;
+	font-family: sans-serif;
+}

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mysterious Gamer Salesman</title>
+	<link rel="stylesheet" type="text/css" href="How_to_Program.css">
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+</head>
+<body>
+	<div id="BigTitle">
+		<i>How to program in C!!!</i>
+	</div>
+	<div id="Main">
+		<div class="Content">
+			<p class="Bigwords">First of all, what is programming? <b class="Important">Programing</b> is the process of writing, testing, and maintaining a computer program.<br> he program is written in a programming language, although it is possible, with some difficulty, to write it directly in machine language.<br>Different programs can be written in different languages.</p>
+		</div>
+		<div class="Content">
+			<ul class="Title"><li>"Call" the variables</li></ul>
+			<p>So, to start a program, first you need to "call" your variables, that means you will put if it will be a whole number (Example: <b class="Important">1</b>), a real number (Example: <b class="Important">1.5</b>) or if it will be a word.</p>
+			<ol class="List">
+				<li>If you want that to be a whole number, you can use <b class="Important">int</b>, for example. But remember, you can't put broken number (like 1.5 or 1.0 too).</li>
+				<pre class="Code">
+					<code>
+int main()
+{
+	int n1=1, n2;
+
+	// Using %i in your printf, you can print n1. 
+	printf("%i", n1);
+	//And using scanf, you can make the person, who is using your program, to choose a number, for example:
+	printf("Choose a whole number for n2: "); scanf("%i", &n2);
+	//And also print it too. 
+	printf("%i", n2);
+	return 0;
+}
+					</code>
+				</pre>
+				<li>Or, if you a real number, you use <b class="Important">float</b> or <b class="Important">double</b>. And, diferent from <b class="Important">int</b>, float/double can receive whole numbers too.</li>
+				<pre class="Code">
+					<code>
+int main()
+{
+	float n1=1, n2;
+
+	// Using %f in your printf, you can print n1. 
+	printf("%f", n1);
+	//And again, using scanf, you can make the person, who is using your program, to choose a number.
+	printf("Choose a real or a whole number for n2: "); scanf("%f", &n2);
+	//And print it too.
+	printf("%f", n2);
+	/*And you can also choose how many bnumbers you want after the dot, using %.nf 
+	where "n" is the number of number that you want to be shown.*/
+	printf("%.2f", n2);
+	return 0;
+}
+					</code>
+				</pre>
+				<li>And finally, when you want to put letters, you use char, but you normally use this to yes or no options and other multiple questions.</li>
+				<pre class="Code">
+					<code>
+int main()
+{
+	char option;
+
+	//For now, you can just choose it.
+	printf("Choose a letter (A to Z) or a number (0 to 9): ");
+	scanf(" %c", &option)
+					
+					</code>
+				</pre>
+			</ol>
+		</div>
+		<div class="Content">
+			<ul class="Title"><li class="Title">Things you can do.</li></ul>
+			<p>Now that you know how to call a variable'and how to print and scan it, let's learn some fuctions, like conditions to print something and even to make the process repeat.</p>
+			<ol class="List">
+				<li>Condition</li>
+				<p>To put it simple, it's a fuction that will let you print something if the conditions were met. For exemple:</p>
+				<pre class="Code">
+					<code>
+int main()
+{
+	int x, y;
+
+	printf("\n\n\tChoose a whole number for x: "); scanf("%i", &x);
+	printf("\n\n\tChoose a whole number for y: "); scanf("%i", &y);
+	//First, you use "if" to put the condition between the parentheses
+	if(x < y)
+		printf("\n\n\tX is smaller than Y");
+	//And then you can use "else" to do an action if the coditions weren't met
+	else
+	{
+		//You can also put another codition, but it needs to be "inside" in an "else"
+		if (y < x)
+			printf("\n\n\tX is smaller than Y");
+		//And you put another else inside
+		else
+			printf("\n\n\tX = Y");
+	}
+	return 0;
+}
+					</code>
+				</pre>
+				<li>Repetition</li>
+				<p>Repetition is a loop, that will continue if a condition is met. An example of it would be a "Yes/No" questions like "do you want this message to be shown again?"</p>
+				<pre class="Code">
+					<code>
+int main()
+{
+	int x=1;
+	char option;
+
+	//If the variable doesn't have a value yet, you use "do while".
+	do
+	{
+		printf("\n\n\tDo you want to continue (Y/N)? "); scanf(" %c", &option);
+	}while(option=='Y' || option=='y');
+
+	//if it already has a value, you can use only while if you want
+	while(x==1 || x!=0)
+	{
+		printf("\n\n\tShow this message again?\n\t1. Yes\n\t0. No\n\tOption: "); scanf("%i", &x);
+		if(x!=1 && x!=0)
+			printf("\n\n\tInvalid option.");
+  	}
+    return 0;
+}
+					</code>
+				</pre>
+			</ol>
+		</div>
+		<div class="Content">
+			<p class="Bigwords">More content will be posted here, but for now, that's all!<br>BYE BYE!!!</p>
+		</div>
+	</div>
+</body>
+</html>
