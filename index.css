@@ -18,7 +18,20 @@ body{
 	width: 85%;
 	height: 500px;
 }
-.Button{
+.Color{
+	background-color: black;
+	color: orange;
+}
+#Button1{
+	background-image: url(https://image.gamer.ne.jp/news/2017/20170926/001489a1dcdc6c95aaa3abb2d0c1bd072324/x/i.jpg);
+	background-size: 100%;
+	margin-left: 6.335px;
+	width: 140px;
+	height: 100px;
+}
+#Button2{
+	background-image: url(https://image.gamer.ne.jp/news/2017/20170728/00275e5da8bc506c28fae0c155c6bffa4181/x/i.jpg);
+	background-size: 100%;
 	margin-left: 6.335px;
 	width: 140px;
 	height: 100px;
