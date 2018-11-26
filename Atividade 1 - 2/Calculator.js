@@ -3,7 +3,7 @@ var juros;
 var tempo;
 var cont;
 var botao;
-//evento
+
 function inic(){
 	botao = document.getElementById("botao");
 	botao.addEventListener("click",calcula);
@@ -41,10 +41,14 @@ function calcula(){
 		var p = document.createElement("p");
 		var result = document.createTextNode("Capital no " + cont + "° mês: " + total + " Juros: " + difer);
 		p.appendChild(result);
-		document.getElementById("resultado").appendChild(p);
+		document.getElementById("resultado").appendChild(p);		
+		}
 	}
 
 }
 
 
-inic();
+
+
+
+inic();//executa a função inicial
