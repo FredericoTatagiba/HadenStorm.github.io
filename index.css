@@ -43,6 +43,14 @@ body{
 	width: 140px;
 	height: 100px;
 }
+#Button4{
+	background-image: url();
+	background-size: 100%;
+	margin-left: 6.335px;
+	width: 140px;
+	height: 100px;
+}
+#Character{
 #Character{
 	background-image: url(http://pm1.narvii.com/6187/71b0da38c8056cbd38faf3a00dad16d087ba46c1_00.jpg);
 	background-repeat: no-repeat;
